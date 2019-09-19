@@ -22,3 +22,13 @@ Putty server refused our key的三种原因和解决方法
 MySQL引擎：
 MyISAM ：不支持行锁，更新时会锁表，不适合高并发
 InnoDB : 支持行锁，MySQL 5.6后默认引擎
+
+
+DMZ
+按一下规则创建防火墙规则就创建了一个DMZ
+1.内网可以访问外网
+2.内网可以访问DMZ
+3.外网不可以访问内网
+4.外网可以访问DMZ
+5.DMZ不可以访问内网
+6.DMZ可以访问外网
